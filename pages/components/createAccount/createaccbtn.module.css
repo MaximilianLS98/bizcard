@@ -1,0 +1,15 @@
+.createaccbtn {
+    background-color: #4caf4f00;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border: 2px solid #fdfdfd;
+    border-radius: 25px;
+}
+
+.btnContainer {
+    margin: auto 0.5rem;
+}

@@ -5,7 +5,7 @@
   align-items: center;
   width: 100%;
   height: 100%;
-  padding: 2rem;
+  /* padding: 2rem; */
   border-radius: 0.5rem;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
   transition: all 0.2s ease-in-out;
@@ -54,4 +54,49 @@
   border-radius: 0.5rem;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
   transition: all 0.2s ease-in-out;
+}
+
+/* for the mainmenu */
+.menuBar {
+  display: block;
+  top: 0;
+  margin: 0;
+  width: 100%;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in-out;
+}
+.menuBarLeft {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  width: 50%;
+  /* height: 100%; */
+  padding: 2rem;
+  border-radius: 0.5rem;
+  float: left;
+}
+.menuBarRight {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  width: 50%;
+  /* height: 100%; */
+  padding: 2rem;
+  border-radius: 0.5rem;
+  float: right;
+  margin: auto 0px;
+}
+.menuLink {
+  /* style like a menu element */
+  text-decoration: none;
+  color: rgb(237, 229, 229);
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  margin: auto 0.5rem;
+  height: 59px;
 }
